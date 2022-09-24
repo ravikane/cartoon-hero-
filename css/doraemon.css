@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Halvetica,Arial,sans-serif;
 	font-size: 20px;
 	line-height: 30px;
 }
@@ -10,55 +10,49 @@ header{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-h1,h2{
-	font-family: 'Press Start 2P', cursive;
-}
-/* header styles */
-/*Write your comment here!*/
+
+/*header style*/
 header h1{
 	color: white;
 	font-size: 50px;
-
 }
 header img{
-	border-radius: 170px;
-	width: 300px;
-	border: 20px solid whitesmoke;
+	border-radius: 150px;
+	width: 250px;
+	border: 20px solid darkred;
 }
 main{
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
-
 }
 main img{
 	max-width: 100%;
 }
 h2{
 	font-size: 35px;
-	color: teal;
+	color: blue;
 	margin: 40px 0 10px;
 }
 a{
-	color: lightblue;
+	color: red;
 }
 a:hover{
-	background-color: orange;
-	color: white;
-	opacity: .5;
+	
+	color: blueviolet;
+	background-color: teal;
 }
 footer{
 	background-color: orange;
 	text-align: center;
-	color: white;
-	padding: 50px;
+	color: green;
+	padding: 30px;
 }
-footer p{
+footer p {
 	margin: 0;
 }
 p.caption{
 	color: grey;
 	font-style: italic;
 	margin-top: 0;
-
 }
